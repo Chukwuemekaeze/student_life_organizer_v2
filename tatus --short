@@ -1,0 +1,52 @@
+[33mcommit e30f7c8f4472f9e8ddd6fa94bded972a84c8f34d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Chukwuemeka <chukwuemekaeze270@gmail.com>
+Date:   Thu Jul 17 17:56:57 2025 +0100
+
+    feat(core): centralize SQLAlchemy/Migrate extensions and add JWT-protected Journal POST route (initial migrations ready)
+
+backend/.env
+backend/__pycache__/main.cpython-313.pyc
+backend/app - Shortcut.lnk
+backend/app/__init__.py
+backend/app/__pycache__/__init__.cpython-313.pyc
+backend/app/__pycache__/extensions.cpython-313.pyc
+backend/app/extensions.py
+backend/app/models/__init__.py
+backend/app/models/__pycache__/__init__.cpython-313.pyc
+backend/app/models/__pycache__/journal.cpython-313.pyc
+backend/app/models/__pycache__/user.cpython-313.pyc
+backend/app/models/journal.py
+backend/app/models/user.py
+backend/app/routes/__init__.py
+backend/app/routes/__pycache__/__init__.cpython-313.pyc
+backend/app/routes/__pycache__/auth.cpython-313.pyc
+backend/app/routes/__pycache__/hello.cpython-313.pyc
+backend/app/routes/__pycache__/journal.cpython-313.pyc
+backend/app/routes/auth.py
+backend/app/routes/hello.py
+backend/app/routes/journal.py
+backend/instance/slo.db
+backend/main.py
+backend/migrations/README
+backend/migrations/__pycache__/env.cpython-313.pyc
+backend/migrations/alembic.ini
+backend/migrations/env.py
+backend/migrations/script.py.mako
+backend/migrations/versions/2f3dac5d0774_initial_tables.py
+backend/migrations/versions/__pycache__/2f3dac5d0774_initial_tables.cpython-313.pyc
+backend/requirements.txt
+frontend/.gitignore
+frontend/README.md
+frontend/eslint.config.js
+frontend/index.html
+frontend/package-lock.json
+frontend/package.json
+frontend/postcss.config.js
+frontend/public/vite.svg
+frontend/src/App.css
+frontend/src/App.jsx
+frontend/src/assets/react.svg
+frontend/src/index.css
+frontend/src/main.jsx
+frontend/tailwind.config.js
+frontend/vite.config.js

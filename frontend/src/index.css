@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* App globals */
+:root { 
+  color-scheme: light;
+  --radius: 0.5rem;
+}
+html, body, #root { 
+  height: 100%; 
+  overflow-x: hidden; /* Prevent horizontal scrolling globally */
+}
+
+/* Prevent wide content from breaking layout */
+pre, code {
+  overflow-x: auto;
+  word-break: break-word;
+}
+
